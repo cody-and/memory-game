@@ -1,0 +1,41 @@
+body {
+	background: #333333;
+	margin: 0;
+}
+
+.tiles {
+	margin: 15px auto;
+	width: max-content;
+	display: grid;
+	grid-template-columns: repeat(4, 100px);
+	gap: 25px;
+	box-sizing: border-box;
+}
+
+.tile {
+	height: 100px;
+	background: black;
+	border: 3px solid greenyellow;
+	cursor: pointer;
+}
+
+.title {
+	color: greenyellow;
+	text-align: center;
+	font-weight: 700;
+	font-size: 50px;
+}
+
+.sub-title {
+	color: greenyellow;
+	text-align: center;
+	font-weight: 700;
+	font-size: 35px;
+}
+
+.description {
+	color: greenyellow;
+	text-align: center;
+	font-weight: 700;
+	font-size: 25px;
+}
