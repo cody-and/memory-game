@@ -1,6 +1,9 @@
 body {
-	background: #333333;
+	background: linear-gradient(to bottom right, red, blue);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	margin: 0;
+	padding: 0;
 }
 
 .tiles {
@@ -10,17 +13,20 @@ body {
 	grid-template-columns: repeat(4, 100px);
 	gap: 25px;
 	box-sizing: border-box;
+	background-color: #333;
+	border: solid 2px white;
+	padding: 50px;
 }
 
 .tile {
 	height: 100px;
 	background: black;
-	border: 3px solid greenyellow;
+	border: 2px solid white;
 	cursor: pointer;
 }
 
 .title {
-	color: greenyellow;
+	color: black;
 	text-align: center;
 	font-weight: 700;
 	font-size: 50px;
@@ -34,7 +40,7 @@ body {
 }
 
 .description {
-	color: greenyellow;
+	color: black;
 	text-align: center;
 	font-weight: 700;
 	font-size: 25px;
